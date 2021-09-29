@@ -1,0 +1,93 @@
+footer{
+    height: 389px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+footer ul li a{
+    font-size: 18px;
+line-height: 28px;
+
+color: #999898;
+
+}
+.footer-body{
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap:45px;
+}
+.footer__company_info h3{
+    margin-bottom: 15px;
+    color: #fff;
+    font-size: 23px;
+}
+
+.footer__company_info p{
+    color: #999898;
+    font-weight: normal;
+font-size: 16px;
+line-height: 26px
+}
+.company-socla-links {
+    display: flex;
+    align-items: center;
+    gap:12px;
+    margin-top: 15px;
+}
+.company-socla-links a{
+    display: inline-flex;
+    width: 45px;
+    height: 45px;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    color: #304463;
+}
+.company-socla-links img{
+    width: 23px;
+    height: 23px;
+}
+.footer-links{
+    width: 100%;
+    display: flex;
+    gap:65px;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+.link-heading{
+    font-size: 20px;
+line-height: 28px;
+
+color: #FFFFFF;
+font-weight: bold;
+margin-bottom: 15px;
+
+}
+
+@media screen and (max-width:605px){
+    .footer-body{
+       
+        display: block;
+        
+    }
+    .footer__company_info{
+margin-top: 15px;
+margin-bottom: 15px;
+    }
+    .footer-links{
+        
+        display: block;
+        
+    }
+}

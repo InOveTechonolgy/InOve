@@ -6,6 +6,8 @@ import triangle from "../../assets/imgs/triangle_illsutration.png"
 import arrow_right from "../../assets/imgs/arrow_right.png"
 import boxes from "../../assets/imgs/boxes.png"
 import ServiceCard from '../../components/ServiceCard'
+import Footer from '../../components/Footer'
+import {FaReact,FaHtml5,FaJs,FaCss3} from "react-icons/fa"
 function Home() {
     return (
         <div className="home">
@@ -41,15 +43,16 @@ function Home() {
                     <h2>We use cutting edge technology</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam, ullamcorper lacus, fusce sed orci nibh porttitor adipiscing ullamcorper. Imperdiet porttitor netus magna scelerisque etiam. Sed amet auctor egestas ante ipsum. Amet ornare a vulputate amet, urna, in nibh semper non.</p>
                     <div className="technology__icons">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div><FaReact/></div>
+                        <div><FaHtml5/></div>
+                        <div><FaCss3/></div>
+                        <div><FaJs/></div>
+                        
                     </div>
                 </div>
                 
                 </Container>
-                <img src={boxes} alt="boxes"  className="boxes"/>
+                {/* <img src={boxes} alt="boxes"  className="boxes"/> */}
             </div>
 
             <div className="team-section">
@@ -61,6 +64,7 @@ function Home() {
                 <img src="https://randomuser.me/api/portraits/men/61.jpg" alt="" className="fourth-person"/>
                </div>
             </div>
+            <Footer/>
 
         </div>
     )
