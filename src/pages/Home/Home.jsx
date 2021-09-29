@@ -4,6 +4,7 @@ import Container from '../../components/Container'
 import Navbar from '../../components/Navbar'
 import triangle from "../../assets/imgs/triangle_illsutration.png"
 import arrow_right from "../../assets/imgs/arrow_right.png"
+// eslint-disable-next-line
 import boxes from "../../assets/imgs/boxes.png"
 import ServiceCard from '../../components/ServiceCard'
 import Footer from '../../components/Footer'

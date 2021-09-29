@@ -1,5 +1,6 @@
 import React from 'react'
 import Container from './Container'
+// eslint-disable-next-line
 import logo from "../assets/imgs/logo.png"
 import {FaInstagram,FaLinkedinIn,FaFacebookF} from "react-icons/fa"
 import linktree from "../assets/imgs/linktree.svg"
