@@ -1,7 +1,7 @@
 import React from 'react'
 import Container from './Container'
 // eslint-disable-next-line
-import logo from "../assets/imgs/logo.png"
+import logo from "../assets/imgs/logov2.png"
 import {FaInstagram,FaLinkedinIn,FaFacebookF} from "react-icons/fa"
 import linktree from "../assets/imgs/linktree.svg"
 import "./Footer.css"
@@ -11,7 +11,8 @@ function Footer() {
             <Container>
                 <div className="footer-body">
                 <div className="footer__company_info">
-                    <h3>Company Logo</h3>
+                    <h3>Inove Tech</h3>
+                    {/* <img src={logo} alt="" /> */}
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum provident dolore ipsum eligendi voluptatibus omnis sit veritatis quasi cum officia placeat, expedita dicta ipsam, veniam pariatur qui quas, ullam officiis.</p>
                     <div className="company-socla-links">
                         <a href="#insta"><FaInstagram/></a>
