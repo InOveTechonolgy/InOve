@@ -8,6 +8,16 @@
   
 }
 
+.brand-logo{
+    display: block;
+    width: 130px;
+    height: auto;
+}
+.brand-logo img{
+    width: 100%;
+    height: auto;
+}
+
 nav ul {
     gap:16px;
 }
