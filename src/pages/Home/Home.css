@@ -195,27 +195,254 @@ width: 712px;
 .first-person{
     width: 127px;
     height: 127px;
-    
+    position: relative;
     
 }
+.first-person  img{
+    width: 100%;
+    height: 100%;
+}
+.first-person-card{
+    position: absolute;
+    top: -115px;
+    left: -240px;
+    width: 287px;
+    height: 118px;
+    background-color: #f8f7f5;
+    border-radius: 6px;
+   opacity: 0;
+   transform: scale(.1);
+   transition: all .2s ease-in-out;
+   transform-origin: bottom right;
+}
+
+.first-person-card::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #00ffdd;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -15px;
+    right: -15px;
+}
+.first-person-card::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #ff0e7e;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -25px;
+    right: -15px;
+}
+
+.second-person-card{
+    position: absolute;
+    top: -112px;
+    left: 110px;
+    width: 290px;
+    height: 118px;
+    background-color: #f8f7f5;
+    border-radius: 6px;
+   z-index: 3;
+   transition: all .2s ease-in-out;
+   transform-origin: bottom left;
+   opacity: 0;
+   transform: scale(.1);
+}
+
+.third-person-card{
+    position: absolute;
+    bottom: -105px;
+    left: 110px;
+    width: 337px;
+    height: 118px;
+    background-color: #f8f7f5;
+    border-radius: 6px;
+   z-index: 3;
+   transition: all .2s ease-in-out;
+   transform-origin: top left;
+   opacity: 0;
+   transform: scale(.1);
+}
+.fourth-person-card{
+    position: absolute;
+    top: -105px;
+    left: 110px;
+    width: 337px;
+    height: 118px;
+    background-color: #f8f7f5;
+    border-radius: 6px;
+   z-index: 3;
+   transition: all .2s ease-in-out;
+   transform-origin: bottom left;
+   opacity: 0;
+   transform: scale(.1);
+}
+.second-person-card::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #00ffdd;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -15px;
+    left: -15px;
+}
+.second-person-card::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #ff0e7e;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -25px;
+    left: -15px;
+}
+.third-person-card::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #00ffdd;
+    position: absolute;
+    border-radius: 50%;
+    top: -15px;
+    left: -15px;
+}
+.third-person-card::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #ff0e7e;
+    position: absolute;
+    border-radius: 50%;
+    top: -25px;
+    left: -15px;
+}
+
+.fourth-person-card::before{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: #00ffdd;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -15px;
+    left: -15px;
+}
+.fourth-person-card::after{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #ff0e7e;
+    position: absolute;
+    border-radius: 50%;
+    bottom: -25px;
+    left: -15px;
+}
+.first-person:hover  .first-person-card{
+opacity: 1;
+transform: scale(1);
+}
+.second-person:hover .second-person-card{
+    opacity: 1;
+    transform: scale(1);
+}
+.third-person:hover .third-person-card{
+    opacity: 1;
+    transform: scale(1);
+}
+.fourth-person:hover .fourth-person-card{
+    opacity: 1;
+    transform: scale(1);
+}
+
+
+
+
+.card-wrapper{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap:18px;
+    height: 90%;
+}
+.card-avatar{
+    width: 58px;
+    height: 58px;
+    background-color: #b16363;
+    border-radius: 50%;
+}
+.card-author{
+    font-size: 12px;
+line-height: 14px;
+font-weight: bold;
+}
+.card-user-position{
+    font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+color: #939393;
+margin-top: 5px;
+}
+.card-links{
+    display: flex;
+    gap:10px;
+    margin-top: 10px;
+}
+.card-links a{
+    display: inline-flex;
+    width: 23px;
+    height: 23px;
+    
+    border-radius: 50%;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.card-links a:nth-child(1){
+    background-color: #142fb6;
+}
+.card-links a:nth-child(2){
+    background-color: #ec0192;
+}
+.card-links a:nth-child(3){
+    background-color: #0073d1;
+}
+
 
 .second-person{
     width: 158px;
     height: 158px;
+    position: relative;
     
     
+}
+.second-person img{
+    width: 100%;
+    height: 100%;
 }
 .third-person{
     width: 158px;
     height: 158px;
+    position: relative;
   
     
 }
+.third-person img{
+    width: 100%;
+    height: 100%;
+}
 .fourth-person{
     width: 127px;
-    height: 127px;
-   
-    
+    height: 127px; 
+    position: relative;
+}
+.fourth-person img{
+    width: 100%;
+    height: 100%;
 }
 
 @media screen and (max-width:1082px){

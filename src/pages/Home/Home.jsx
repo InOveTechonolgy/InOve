@@ -5,11 +5,13 @@ import Navbar from '../../components/Navbar'
 import triangle from "../../assets/imgs/triangle_illsutration.png"
 import arrow_right from "../../assets/imgs/arrow_right.png"
 import {motion} from "framer-motion"
+import {FaInstagram,FaLinkedinIn,FaFacebookF} from "react-icons/fa"
 // eslint-disable-next-line
 import boxes from "../../assets/imgs/boxes.png"
 import ServiceCard from '../../components/ServiceCard'
 import Footer from '../../components/Footer'
 import {FaReact,FaHtml5,FaJs,FaCss3} from "react-icons/fa"
+import sumit from "../../assets/imgs/sumit.jpeg"
 function Home() {
     return (
         <div className="home">
@@ -68,14 +70,74 @@ function Home() {
             <div className="team-section">
                 <h4>OUR TEAM</h4>
                <div className="team-persons">
-               <motion.img whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }} src="https://uifaces.co/our-content/donated/bUkmHPKs.jpg" alt="" className="first-person"/>
-                <motion.img whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }} src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt="" className="second-person"/>
-                <motion.img whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }} src="https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ" alt="" className="third-person"/>
-                <motion.img whileHover={{ scale: 1.1 }}
-    whileTap={{ scale: 0.9 }} src="https://randomuser.me/api/portraits/men/61.jpg" alt="" className="fourth-person"/>
+                   <div className="first-person">
+        <div className="first-person-card">
+            <div className="card-wrapper">
+                <div className="card-avatar">
+                <img src={sumit} alt=""/>
+                </div>
+                <div className="card-meta">
+                    <div className="card-author">Sumit</div>
+                    <div className="card-user-position">FullStack Web Developer</div>
+                    <div className="card-links">
+                        <a href="#facebook"><FaFacebookF/></a>
+                        <a href="#insta"><FaInstagram/></a>
+                        <a href="#github"><FaLinkedinIn/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+               <img src={sumit} alt=""/></div>
+                <div  className="second-person">
+                <div className="second-person-card">
+            <div className="card-wrapper">
+                <div className="card-avatar"></div>
+                <div className="card-meta">
+                    <div className="card-author">Abhay Gudihal</div>
+                    <div className="card-user-position">Web Developer</div>
+                    <div className="card-links">
+                        <a href="#facebook"><FaFacebookF/></a>
+                        <a href="#insta"><FaInstagram/></a>
+                        <a href="#github"><FaLinkedinIn/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <img src="https://uifaces.co/our-content/donated/vIqzOHXj.jpg" alt=""/></div>
+                <div className="third-person">
+                <div className="third-person-card">
+            <div className="card-wrapper">
+                <div className="card-avatar"></div>
+                <div className="card-meta">
+                    <div className="card-author">Shailesh Kamble</div>
+                    <div className="card-user-position">Founder,Mobile Applocation Developer</div>
+                    <div className="card-links">
+                        <a href="#facebook"><FaFacebookF/></a>
+                        <a href="#insta"><FaInstagram/></a>
+                        <a href="#github"><FaLinkedinIn/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <img
+src="https://images.unsplash.com/photo-1520810627419-35e362c5dc07?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ" alt=""/></div>
+                <div className="fourth-person">
+                <div className="fourth-person-card">
+            <div className="card-wrapper">
+                <div className="card-avatar"></div>
+                <div className="card-meta">
+                    <div className="card-author">Suraj Kumar Mondal</div>
+                    <div className="card-user-position">UI/UX Desginer</div>
+                    <div className="card-links">
+                        <a href="#facebook"><FaFacebookF/></a>
+                        <a href="#insta"><FaInstagram/></a>
+                        <a href="#github"><FaLinkedinIn/></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                    <img src="https://randomuser.me/api/portraits/men/61.jpg" alt=""/>
+                </div>
                </div>
             </div>
             <Footer/>
