@@ -110,7 +110,7 @@ function Home() {
                 <div className="card-avatar"></div>
                 <div className="card-meta">
                     <div className="card-author">Shailesh Kamble</div>
-                    <div className="card-user-position">Founder,Mobile Applocation Developer</div>
+                    <div className="card-user-position">Founder,Mobile Application Developer</div>
                     <div className="card-links">
                         <a href="#facebook"><FaFacebookF/></a>
                         <a href="#insta"><FaInstagram/></a>
