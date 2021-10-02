@@ -5,6 +5,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 4;
   
 }
 
@@ -28,18 +29,14 @@ line-height: 16px;
 text-align: center;
 
 color: #C8C8C8;
-display: inline-flex;
-width: 65px;
-height: 27px;
-align-items: center;
-justify-content: center;
-}
-.active-link{
-    background: #3B58F0;
-    border-radius: 65px;
-    color: #fff;
+
 
 }
+nav ul li > a:hover{
+    color: #fff;
+    font-weight: bold;
+}
+
 
 @media screen and (max-width:768px){
     nav{

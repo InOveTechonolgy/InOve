@@ -12,10 +12,11 @@ import ServiceCard from '../../components/ServiceCard'
 import Footer from '../../components/Footer'
 import {FaReact,FaHtml5,FaJs,FaCss3} from "react-icons/fa"
 import sumit from "../../assets/imgs/sumit.jpeg"
+import figma from "../../assets/imgs/figma.svg"
 function Home() {
     return (
         <div className="home">
-            <div className="dark-hero">
+            <div className="dark-hero" id="home">
                 <Container>
                     <Navbar/>
                     <motion.div
@@ -28,28 +29,31 @@ function Home() {
     default: { duration: 2 },
   }}div className="hero__top__container">
                         <h1>We build beautiful and reliable web & mobile solutions</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh tortor facilisi maecenas. Enim et purus orci, nunc aliquam nunc. Mauris amet enim netus vel. Viverra enim facilisis faucibus eu, et scelerisque gravida.</p>
+                        <p>We strongly believe that communication, trust and transparency are the essential elements of successful business relationship. Ready for the journey?</p>
                         <div className="hero__buttons">
                             <a href="#more" className="btn btn-primary">Learn more.</a>
                             <a href="#project" className="btn btn-secondary">Our Projects <img src={arrow_right} alt="arrow_right" /></a>
                         </div>
                     </motion.div>
 
-                    <div className="services__header">
+                    <div className="services__header" id="services">
                         <h3>Our Services</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tortor nibh tortor facilisi maecenas. Enim et purus orci, nunc aliquam nunc. Mauris amet enim netus vel. </p>
+                        <p>We feel very strong about our skills when it comes to planning, designing and coding applications. Here is what we love to do!</p>
                     </div>
 
                     <div className="services__cards">
-                        <ServiceCard title="Business & Product Concept"/>
-                        <ServiceCard title="Web & Mobile Development"/>
-                        <ServiceCard title="UX & UI Design"/>
+                        <ServiceCard title="Business & Product Concept" subtitle="Analyse business and product concepts at Start-up Workshops or Ongoing Projects' Audits and prepare a viable and sensible product roadmap for achieving a perfect market fit."/>
+                        <ServiceCard title="Web & Mobile Development" subtitle="Plan, develop and test high-quality web applications using AngularJS, NodeJS, JavaScript, Typescript, HTMLS and SASS/ CSS3 frameworks and native mobile languages."/>
+                        <ServiceCard title="UX & UI Design" subtitle="Sketch information architecture and simple mock-ups, convert them into
+clickable prototypes and finish with usable
+interface designs to deliver a good and,
+reliable user experience"/>
                     </div>
                 </Container>
                 <img src={triangle} alt="triangle-illustration" className="triangle-illustration" />
             </div>
 
-            <div className="technology__section">
+            <div className="technology__section" id="technology">
                 <Container>
                 <div className="technology__body">
                     <h2>We use cutting edge technology</h2>
@@ -59,6 +63,7 @@ function Home() {
                         <div><FaHtml5/></div>
                         <div><FaCss3/></div>
                         <div><FaJs/></div>
+                        <div><img src={figma} alt=""/></div>
                         
                     </div>
                 </div>
@@ -67,7 +72,7 @@ function Home() {
                 {/* <img src={boxes} alt="boxes"  className="boxes"/> */}
             </div>
 
-            <div className="team-section">
+            <div className="team-section" id="about">
                 <h4>OUR TEAM</h4>
                <div className="team-persons">
                    <div className="first-person">

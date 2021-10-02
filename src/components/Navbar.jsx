@@ -10,16 +10,16 @@ function Navbar() {
             <nav>
                 <ul>
                     <li>
-                        <div><a href="#Home" className="active-link">Home</a></div>
+                        <div><a href="/#top">Home</a></div>
                     </li>
                     <li>
-                        <div><a href="#Servics">Services</a></div>
+                        <div><a href="#services">Services</a></div>
                     </li>
                     <li>
-                        <div><a href="#Technology">Technology</a></div>
+                        <div><a href="#technology">Technology</a></div>
                     </li>
                     <li>
-                        <div><a href="#About">About</a></div>
+                        <div><a href="#about">About</a></div>
                     </li>
                     <li>
                         <div><a href="#join">Join us</a></div>
