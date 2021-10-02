@@ -13,7 +13,7 @@ function Footer() {
                 <div className="footer__company_info">
                     <h3>Inove Tech</h3>
                     {/* <img src={logo} alt="" /> */}
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum provident dolore ipsum eligendi voluptatibus omnis sit veritatis quasi cum officia placeat, expedita dicta ipsam, veniam pariatur qui quas, ullam officiis.</p>
+                    <p>We strongly believe that communication, trust and transparency are the essential elements of successful business relationship. Ready for the journey?</p>
                     <div className="company-socla-links">
                         <a href="#insta"><FaInstagram/></a>
                         <a href="#facebook"><FaFacebookF/></a>

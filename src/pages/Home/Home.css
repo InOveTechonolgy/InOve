@@ -94,8 +94,9 @@ top: -22px;
 }
 .services__header p{
     color: #DEDEDE;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 36px;
+    font-weight: bold;
 }
 
 .services__cards{
@@ -153,9 +154,25 @@ width: 712px;
     justify-content: center;
 }
 .technology__icons div svg{
-    fill: #34488A;
+ 
     width: 23px;
     height: 23px;
+}
+.technology__icons div:nth-child(1) > svg{
+    fill: #00ffdd;
+}
+.technology__icons div:nth-child(2) > svg{
+    fill: #ff0015;
+}
+.technology__icons div:nth-child(3) > svg{
+    fill: #0084ff;
+}
+.technology__icons div:nth-child(4) > svg{
+    fill: #ffb300;
+}
+
+.technology__icons div img{
+    width: 23px;
 }
 
 .boxes{
