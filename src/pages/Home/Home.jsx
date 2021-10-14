@@ -130,7 +130,7 @@ reliable user experience"
                 <div className="card-avatar">
                   <img
                     src={
-                      "https://avatars.dicebear.com/api/avataaars/sumit_bighaniya.svg"
+                      "https://avatars.dicebear.com/api/avataaars/sumit_kumar_bighaniya.svg"
                     }
                     alt=""
                   />
@@ -155,7 +155,7 @@ reliable user experience"
               </div>
             </div>
             <img
-              src="https://avatars.dicebear.com/api/avataaars/sumit_bighaniya.svg"
+              src="https://avatars.dicebear.com/api/avataaars/sumit_kumar_bighaniya.svg"
               alt=""
             />
           </div>
@@ -226,7 +226,12 @@ reliable user experience"
           <div className="fourth-person">
             <div className="fourth-person-card">
               <div className="card-wrapper">
-                <div className="card-avatar"></div>
+                <div className="card-avatar">
+                  <img
+                    src="https://avatars.dicebear.com/api/avataaars/suraj_kumar_mondal.svg"
+                    alt=""
+                  />
+                </div>
                 <div className="card-meta">
                   <div className="card-author">Suraj Kumar Mondal</div>
                   <div className="card-user-position">UI/UX Desginer</div>
